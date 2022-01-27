@@ -3,14 +3,14 @@
 <suite name="Suite">
 
  <listeners>
-     <listener class-name = "CertificialAutomationConfigurations.Listeners"/>
+     <listener class-name = "FlashAutomationConfigurations.Listeners"/>
   </listeners>  
   
   <test name="Smoke">
     <classes>
-    <class name="CertificialAutomationConfigurations.BaseTest"/>
-     <class name="CertificialAutomationConfigurations.DriverFactory"/>
-     <class name="CertificialAutomationConfigurations.TestRunner">
+    <class name="FlashAutomationConfigurations.BaseTest"/>
+     <class name="FlashAutomationConfigurations.DriverFactory"/>
+     <class name="FlashAutomationConfigurations.TestRunner">
      
          </class>
     </classes>
